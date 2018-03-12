@@ -5,10 +5,10 @@ $(function() {
     });
 
     $('#clear').on('click vclick', function() {
-        $('.container').css('display', 'none');
+        $('.container').css('opacity', '0');
     });
     $('#edit').on('click vclick', function() {
-        $('.container').css('display', 'flex');
+        $('.container').css('opacity', '1');
     });
 
     let tickets = 0;
