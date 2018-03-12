@@ -1,0 +1,28 @@
+.wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+// COLOURS
+
+$primaryColourTop: #37AFA4;
+$primaryColourBottom: #BDDCD9;
+$secondaryColour: #289C92;
+
+// FONT
+
+$primaryFont: 'Lato', sans-serif;
+
+html {
+    font-family: $primaryFont;
+}
+
+// BUTTONS
+
+button {
+    font-weight: 700;
+    transition: all 0.3s ease;
+    &:hover {
+        background: $primaryColourBottom;
+    }
+}

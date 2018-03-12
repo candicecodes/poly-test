@@ -1,0 +1,29 @@
+.results {
+    background: $secondaryColour;
+    .wrapper--results {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .results--number {
+        text-transform: uppercase;
+        margin: 26px 0;
+        color: white;
+        font-size: 1.2rem;
+    }
+    .results__btn {
+        border: 1px solid white;
+        background: transparent;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 1.2rem;
+        transition: all 0.3s ease;
+        &:hover {
+            background: $primaryColourTop;
+        }
+        &:first-child {
+            margin-right: 20px;
+        }
+    }
+}
